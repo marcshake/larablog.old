@@ -12,13 +12,13 @@
     <!-- Das hier bestimmt die eigentliche Seitenbreite //-->
     <div class="container">
         <div class="row">
-            <div class="two columns">
+            <div class="three columns" id="MainMenu">
                 <!-- Hier kommt die Menüstruktur //-->
                     <a href="{{ route('BlogIndex') }}" class="button button-primary u-full-width">
                            Home
                     </a>
             </div>
-            <div class="ten columns">
+            <div class="nine columns" id="MainContents">
                 <!-- Was zur Hölle ist das hier? Das steht im Tutorial! //-->
 
                 @yield('contents')

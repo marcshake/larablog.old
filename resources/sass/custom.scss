@@ -1,67 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+    background: #10171e;
+    color: #8899a6;
+    font-family: 'Work Sans', sans-serif
+}
+a {
+    color: #FF691F;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF712F;
+    border-bottom: yellowgreen 1px solid;
+}
+.centered {
+    display: block;
+    text-align: center;
+}
+.maBox {
+    background: rgb(21, 32, 43);
+    padding: 1em;
+    border: #333 solid 1px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.headimg {
+    background-image: linear-gradient(#10171e22, #10171eff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    color: whitesmoke;
+    padding-top: 3em;
+}
 .container {
-    max-width: 1280px;
+    max-width: 1200px;
 }
-/* Responsive Iframes */
-.fluidMedia {
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	position: relative;
+.boxed {
+    border: 1px solid #333;
 }
-
-.fluidMedia iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.odd {
+    background: rgb(21, 32, 43);
 }
-/* I don't want Images to be larger than the parent container */
-
-img {
-	max-width: 100%;
+.even {
+    background: rgb(31, 42, 53);
 }
-
-/* I like my fonts another way */
-h1, h2, h3, h4, h5, h6 {
-	margin-top: 0;
-	margin-bottom: 2rem;
-	font-weight: 300;
+.textual a {
+    font-weight: bold;
+}
+.hovme {
+    background: rgb(21, 32, 43);
+    transition: background 0.5s ease;
+}
+.hovme:hover {
+    background: rgb(31, 42, 53);
+}
+footer {
+    background: rgb(21, 32, 43);
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-	font-size: 3.0rem;
-	line-height: 1.2;
-	letter-spacing: -.1rem;
+hr {
+    border-color: rgb(31, 42, 53);
 }
 
-h2 {
-	font-size: 2.6rem;
-	line-height: 1.25;
-	letter-spacing: -.1rem;
-}
-
-h3 {
-	font-size: 2.0rem;
-	line-height: 1.3;
-	letter-spacing: -.1rem;
-}
-
-h4 {
-	font-size: 1.4rem;
-	line-height: 1.35;
-	letter-spacing: -.08rem;
-}
-
-h5 {
-	font-size: 1.2rem;
-	line-height: 1.5;
-	letter-spacing: -.05rem;
-}
-
-h6 {
-	font-size: 1.0rem;
-	line-height: 1.6;
-	letter-spacing: 0;
-}
