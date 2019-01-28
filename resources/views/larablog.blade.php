@@ -15,7 +15,9 @@
                 <!-- Hier kommt die Menüstruktur //-->
             </div>
             <div class="ten columns">
-                <!-- Hier kommt der restliche Content //-->
+
+                @yield('contents')
+
             </div>
         </div>
     </div>

@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('larablog'); // Laravel macht daraus /resources/views/larablog.blade.php
-});
+Route::get('/', 'BlogController@BlogIndex');
