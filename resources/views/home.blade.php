@@ -1,6 +1,9 @@
 {{-- This is a comment. This comment tells you, that home.blade actually extends our main template --}}
 @extends('larablog')
 
+{{-- Every page needs a title--}}
+@section('pagetitle') Welcome to my larablog @endsection
+
 {{-- This is the section that will be 'yield'ed in that parent template. So whatever you see here, will be included in that layout --}}
 @section('contents')
 

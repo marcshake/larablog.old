@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'BlogController@BlogIndex');
+Route::get('/', 'BlogController@BlogIndex')->name('BlogIndex');
