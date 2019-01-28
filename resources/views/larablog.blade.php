@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- Wir laden nun komprimierte CSS-Dateien //-->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
 </head>
 <body>
+    <!-- Das hier bestimmt die eigentliche Seitenbreite //-->
     <div class="container">
         <div class="row">
             <div class="two columns">
                 <!-- Hier kommt die Menüstruktur //-->
             </div>
             <div class="ten columns">
+                <!-- Was zur Hölle ist das hier? Das steht im Tutorial! //-->
 
                 @yield('contents')
 
