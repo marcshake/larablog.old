@@ -865,6 +865,10 @@ a:hover {
   border-bottom: yellowgreen 1px solid;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .centered {
   display: block;
   text-align: center;
@@ -885,10 +889,6 @@ a:hover {
   height: 55vh;
   color: whitesmoke;
   padding-top: 3em;
-}
-
-.container {
-  max-width: 1200px;
 }
 
 .boxed {
