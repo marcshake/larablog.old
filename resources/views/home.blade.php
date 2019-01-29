@@ -12,7 +12,8 @@
             <div class="twelve columns">
                 <div class="maBox">
                 <h2>{{ $item->title }}</h2>
-                {!! $item->contents !!}
+                {!! $item->contents !!} {{-- This will paste RAW output. Even HTML --}}
+
             </div>
             </div>
         </div>
