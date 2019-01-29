@@ -13,6 +13,9 @@ At this time, we just have a small model, one tiny template and a small database
 * Create Database on your server
 * Modify .env to your needs
 * Migrate Database `php artisan migrate`
+* If not already on your System, install NPM and yarn
+* Execute `composer install`
+* Execute `yarn`
 
 ## Work in Progress
 
